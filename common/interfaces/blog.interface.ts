@@ -10,5 +10,5 @@ export interface Blog extends DefaultContentBody {
 }
 
 export const isBlog = (blog: DefaultContentBody | Blog): blog is Blog => {
-  return blog.title !== undefined && blog.heading !== undefined && blog.description !== undefined;
-};
+  return blog.title !== undefined && blog.heading !== undefined;
+};  
