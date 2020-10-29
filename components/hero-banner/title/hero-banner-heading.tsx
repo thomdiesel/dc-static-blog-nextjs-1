@@ -8,7 +8,7 @@ interface HeroBannerHeadingProps {
 const HeroBannerHeading = ({ heading }: HeroBannerHeadingProps): ReactElement => {
   return (
     <>
-      <h1>{heading}</h1>
+      <h1>CK Community</h1>
       <style jsx>
         {`
           h1 {
