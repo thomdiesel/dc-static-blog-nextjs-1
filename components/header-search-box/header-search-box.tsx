@@ -7,7 +7,7 @@ const HeaderSearchBox = ({ placeholderText }: { placeholderText: string }): Reac
     <>
       <SearchBox
         translations={{
-          placeholder: "Search"
+          placeholder: "placeholderText"
         }}
         submit={
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18">
