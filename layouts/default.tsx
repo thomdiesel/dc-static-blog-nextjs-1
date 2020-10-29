@@ -18,7 +18,7 @@ export default ({ children, contentOnly = false }: DefaultLayoutProps): ReactEle
       <div className="site-container">
         {!contentOnly && (
           <>
-            <Header title="LVMH Community" />
+            <Header title="CK Community" />
           </>
         )}
         <div className="site-content">
