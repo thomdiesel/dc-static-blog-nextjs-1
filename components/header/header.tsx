@@ -16,7 +16,7 @@ const Header = ({ title }: { title: string }): ReactElement => {
           <StaticLink href={headerLink}>
             <Logo darkMode={false} />
           </StaticLink>
-          <h1>CK Community</h1>
+          <h1>{title}</h1>
         </header>
       </section>
 
